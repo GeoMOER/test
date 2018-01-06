@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Data Files
+layout: page
 ---
-<H1> Just a test - taken from jekyllrb.com </H1>
+
+# Just a test - taken from jekyllrb.com 
 
 In addition to the [built-in variables](../variables/) available from Jekyll,
 you can specify your own custom data that can be accessed via the [Liquid
