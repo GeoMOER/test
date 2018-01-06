@@ -1,7 +1,7 @@
 ---
-title: 03 LN Data Files
+title: 03 EX Example Files
 layout: default
-category: ln
+category: ex
 order: 3
 ---
 

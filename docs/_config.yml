@@ -33,7 +33,14 @@ plugins:
   - jekyll-feed
 
 
-include: ['_docs']
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+    values:
+      sidebar:
+        nav: "docs"
+
   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

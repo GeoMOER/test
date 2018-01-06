@@ -1,8 +1,8 @@
 ---
-title: 03 LN Data Files
+title: 01 EX Example Files
 layout: default
-category: ln
-order: 3
+category: ex
+order: 1
 ---
 
 # Just a test - taken from jekyllrb.com 

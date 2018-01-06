@@ -5,6 +5,18 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+tnauss: Test for automatic links to categories LN and EX.
+{% assign mydocs = site.docs | group_by: 'category' %}
+{% for cat in mydocs %}
+<h2>{{ cat.name | capitalize }}</h2>
+<ul>
+  {% assign items = cat.items | sort: 'order' %}
+  {% for item in items %}
+    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
 [Link to another page](another-page).
 
 There should be whitespace between paragraphs.
