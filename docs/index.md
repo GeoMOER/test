@@ -12,7 +12,7 @@ tnauss: Test for automatic links to categories LN and EX.
 <ul>
   {% assign items = cat.items | sort: 'order' %}
   {% for item in items %}
-    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ item.url }}index.html">{{ item.title }}</a></li>
   {% endfor %}
 </ul>
 {% endfor %}
