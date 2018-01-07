@@ -1,8 +1,6 @@
 ---
 title: 02 LN Data Files
-layout: default
 category: ln
-order: 2
 ---
 
 # Just a test - taken from jekyllrb.com 

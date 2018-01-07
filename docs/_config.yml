@@ -28,19 +28,27 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
+remote_theme: "mmistakes/minimal-mistakes"
+#theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
 
 
 collections:
   docs:
-    permalink: /:collection/:path/
     output: true
-    values:
-      sidebar:
-        nav: "docs"
+    permalink: /:collection/:path/
 
+# Defaults
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      sidebar:
+        nav: "docs"    
   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

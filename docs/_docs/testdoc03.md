@@ -1,6 +1,5 @@
 ---
 title: 03 LN Data Files
-layout: default
 category: ln
 order: 3
 ---

@@ -1,6 +1,5 @@
 ---
 title: 01 EX Example Files
-layout: default
 category: ex
 order: 1
 ---

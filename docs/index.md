@@ -1,6 +1,6 @@
 ---
 title: Test for MOER - Marburg Open Educational Resource
-layout: default
+layout: single
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
