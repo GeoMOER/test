@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MOER - Marburg Open Educational Resource
+name: "Thomas Nauss"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,12 +27,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/test"
 url: "http://marburg-open-courseware.github.io"
 
+repository: "marburg-open-courseware.github/test"
+
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "marburg-open-courseware/minimal-mistakes"
 #theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
@@ -64,3 +67,8 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+teaser: /assets/images/500x300.png
+
+header:
+  teaser: /assets/images/my-awesome-post-teaser.jpg
