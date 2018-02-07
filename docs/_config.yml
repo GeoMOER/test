@@ -13,50 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MOER - Marburg Open Educational Resource
-name: "Thomas Nauss"
+title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# baseurl: "/data/mriliasmooc/lm_data/lm_2291"
-# url: "https://oer.uni-marburg.de"
-baseurl: "/test"
-url: "http://marburg-open-courseware.github.io"
-
-repository: "marburg-open-courseware.github/test"
-
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: "marburg-open-courseware/minimal-mistakes"
-#theme: jekyll-theme-leap-day
+remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
   - jekyll-feed
 
-
-  
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      sidebar:
-        nav: "docs"    
-  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -68,8 +42,3 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-teaser: /assets/images/500x300.png
-
-header:
-  teaser: /assets/images/my-awesome-post-teaser.jpg
